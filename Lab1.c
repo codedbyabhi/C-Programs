@@ -17,5 +17,6 @@ void main() {
 
     if (age < 18) {
         printf("Sorry %s, you are not eligible to vote.\n", name);
+        printf("You need to wait for %d more years to be eligible to vote.\n", 18 - age);
     }
 }
