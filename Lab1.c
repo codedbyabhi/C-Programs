@@ -16,6 +16,6 @@ void main() {
     }
 
     if (age < 18) {
-        printf("Sorry %s, you are not eligible to vote.\n", name)
+        printf("Sorry %s, you are not eligible to vote.\n", name);
     }
 }
